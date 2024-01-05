@@ -7,6 +7,7 @@ import (
 	"github.com/robert-min/go-utils/base_api/handlers"
 )
 
+// SetupServer set Handler path
 func setupServer(mux *http.ServeMux) http.Handler {
 	handlers.Register(mux)
 	return mux
